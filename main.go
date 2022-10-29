@@ -23,6 +23,7 @@ func main() {
 	currentBranch := execCommand(SHOW_CURRENT_BRANCH)
 	branchData := branchParser(currentBranch)
 	fmt.Println(branchData)
+
 }
 
 func execCommand(command string) string {
@@ -31,6 +32,7 @@ func execCommand(command string) string {
 	if err != nil {
 		log.Fatal(err)
 	}
+	fmt.Println(string(out))
 	return string(out)
 }
 
