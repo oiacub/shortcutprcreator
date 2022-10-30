@@ -1,6 +1,7 @@
 name: 'Pull Request title rules'
 description: 'Github action to enforce Pull Request title conventions'
 author: 'deepakputhraya'
+on: [push]
 inputs:
   regex:
     description: 'Regex to validate the pull request title'
