@@ -3,9 +3,9 @@ on:
   pull_request:
     types: [edited, opened, synchronize, reopened]
 
-jobs:
-  name: Check pull request naming
+jobs:  
   title-check:
+    name: Check pull request naming is correct
     runs-on: ubuntu-latest
     steps:
       - uses: naveenk1223/action-pr-title@master
