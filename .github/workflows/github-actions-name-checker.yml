@@ -4,7 +4,7 @@ on:
     types: [edited, opened, synchronize, reopened]
 
 jobs:
-  name: Check Pull Request names
+  name: Check pull request naming is correct
   title-check:
     runs-on: ubuntu-latest
     steps:
