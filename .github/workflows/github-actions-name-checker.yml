@@ -4,7 +4,7 @@ on:
     types: [edited, opened, synchronize, reopened]
 
 jobs:
-  name: Check PR name
+  name: Check Pull Request name
   title-check:
     runs-on: ubuntu-latest
     steps:
